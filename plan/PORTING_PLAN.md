@@ -5,7 +5,9 @@
 
 ## Current State
 
-**Status**: Nothing exists yet. Starting from empty repository with only the plan directory.
+**Status**: Phase 0 & 1 complete.
+- ✅ Phase 0: Workspace scaffold created, cargo-leptos configured, project compiles
+- ✅ Phase 1: All core data types defined (NotionNode, ComputedNode, MapNode, OuraData, etc.), API request/response types, sanitization functions
 
 ---
 
