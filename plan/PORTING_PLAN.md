@@ -5,10 +5,17 @@
 
 ## Current State
 
-**Status**: Phase 0, 1, & 2 complete (core algorithms only).
+**Status**: Phase 0, 1, 2, & 3 complete.
 - ✅ Phase 0: Workspace scaffold created, cargo-leptos configured, project compiles
 - ✅ Phase 1: All core data types defined (NotionNode, ComputedNode, MapNode, OuraData, etc.), API request/response types, sanitization functions
 - ✅ Phase 2: Core graph algorithms implemented (topo_sort, detect_cycles, compute_statuses, compute_progress, build_tree). Layout algorithms (compute_layout, compute_radial_map_layout) deferred to Phase 10.
+- ✅ Phase 3: Notion API client implemented
+  - AppState for managing HTTP client and environment variables
+  - fetch_all_nodes with pagination
+  - create_node, update_node, archive_node
+  - Property extraction helpers for all Notion types
+  - REST API endpoints: GET/POST /api/nodes, PATCH/DELETE /api/nodes/:id
+  - Health check endpoint
 
 ---
 

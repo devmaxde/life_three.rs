@@ -2,7 +2,7 @@ use crate::types::*;
 use serde::{Deserialize, Serialize};
 
 /// Request to create a new node
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct CreateNodeRequest {
     pub name: String,
@@ -20,7 +20,7 @@ pub struct CreateNodeRequest {
 }
 
 /// Request to update an existing node
-#[derive(Debug, Deserialize, Default)]
+#[derive(Debug, Deserialize, Serialize, Default)]
 #[serde(rename_all = "camelCase")]
 pub struct UpdateNodeRequest {
     pub name: Option<String>,
@@ -62,7 +62,7 @@ pub struct SuggestFieldsResponse {
 }
 
 /// Chat message in request
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct ChatMessageRequest {
     pub role: String,
@@ -70,7 +70,7 @@ pub struct ChatMessageRequest {
 }
 
 /// Request for chat with AI
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct ChatRequest {
     pub messages: Vec<ChatMessageRequest>,
