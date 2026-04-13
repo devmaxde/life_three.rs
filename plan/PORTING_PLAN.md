@@ -5,9 +5,10 @@
 
 ## Current State
 
-**Status**: Phase 0 & 1 complete.
+**Status**: Phase 0, 1, & 2 complete (core algorithms only).
 - ✅ Phase 0: Workspace scaffold created, cargo-leptos configured, project compiles
 - ✅ Phase 1: All core data types defined (NotionNode, ComputedNode, MapNode, OuraData, etc.), API request/response types, sanitization functions
+- ✅ Phase 2: Core graph algorithms implemented (topo_sort, detect_cycles, compute_statuses, compute_progress, build_tree). Layout algorithms (compute_layout, compute_radial_map_layout) deferred to Phase 10.
 
 ---
 
