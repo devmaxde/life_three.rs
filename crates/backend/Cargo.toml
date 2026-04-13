@@ -1,0 +1,29 @@
+[package]
+name = "life-tree-backend"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "life-tree-backend"
+path = "src/main.rs"
+
+[dependencies]
+life-tree-core = { path = "../core" }
+axum = { workspace = true }
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+reqwest = { version = "0.12", features = ["json", "stream"] }
+tower-http = { version = "0.5", features = ["cors", "fs", "trace"] }
+tokio-stream = "0.1"
+async-stream = "0.3"
+futures-util = "0.3"
+anyhow = "1"
+thiserror = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+dotenvy = "0.15"
+leptos = { workspace = true, features = ["ssr"] }
+leptos_axum = "0.7"
+leptos_meta = "0.7"
+leptos_router = "0.7"

@@ -1,0 +1,48 @@
+# Leptos configuration file for cargo-leptos
+
+[build]
+# The source dir for the frontend code
+frontend = "crates/frontend"
+# The location of the backend code relative to the workspace
+backend = "crates/backend"
+# The location of the package with the server entrypoint
+bin-package = "life-tree-backend"
+
+# The output dir for your server binary
+out-dir = "target"
+
+# Automatically reload browser when files change.
+reload-external-resources = true
+
+# Tailwind input file
+style-file = "assets/app.css"
+# Files which custom Tailwind rules should be generated for
+tailwind-input-file = "assets/app.css"
+tailwind-output-file = "assets/style.css"
+
+# [Optional] Files in the public directory
+public-env-files = [".env"]
+
+[package]
+name = "life-tree"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = 'z'
+
+[[hooks.serve]]
+command = "tailwindcss"
+command-arguments = ["-i", "assets/app.css", "-o", "assets/style.css", "--minify"]
+stage = "build"
+
+[watch]
+watch_dir = "crates/frontend/src"
+
+[env]
+# The environment Leptos will run in, by default it is DEV, that means nothing will be minified
+# Possible values are DEV and PROD
+LEPTOS_ENV = "dev"
+LEPTOS_HASH_STRINGS = "false"

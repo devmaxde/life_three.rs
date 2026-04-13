@@ -1,0 +1,30 @@
+[package]
+name = "life-tree-frontend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+life-tree-core = { path = "../core" }
+leptos = { workspace = true, features = ["csr"] }
+leptos_router = { workspace = true }
+leptos_meta = { workspace = true }
+leptos-use = "0.13"
+serde = { workspace = true }
+serde_json = { workspace = true }
+wasm-bindgen = "0.2"
+wasm-bindgen-futures = "0.4"
+web-sys = { version = "0.3", features = [
+    "WebGlRenderingContext", "WebGlBuffer", "WebGlProgram", "WebGlShader",
+    "HtmlCanvasElement", "CanvasRenderingContext2d",
+    "EventSource", "MessageEvent",
+    "Window", "Document", "Element", "HtmlElement",
+    "MouseEvent", "WheelEvent", "KeyboardEvent",
+    "Storage", "console",
+] }
+js-sys = "0.3"
+gloo-net = { version = "0.6", features = ["http"] }
+gloo-storage = "0.3"
+gloo-timers = "0.3"
+pulldown-cmark = "0.12"
+chrono = { workspace = true, features = ["wasmbind"] }
+uuid = { version = "1", features = ["v4", "js"] }

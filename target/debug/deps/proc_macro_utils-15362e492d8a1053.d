@@ -1,0 +1,10 @@
+/Users/privat/Documents/GitHub/smartyourself/rust_port/target/debug/deps/proc_macro_utils-15362e492d8a1053.d: /Users/privat/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.8.0/src/lib.rs /Users/privat/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.8.0/src/parser.rs /Users/privat/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.8.0/src/assert.rs /Users/privat/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.8.0/src/__private.rs
+
+/Users/privat/Documents/GitHub/smartyourself/rust_port/target/debug/deps/libproc_macro_utils-15362e492d8a1053.rlib: /Users/privat/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.8.0/src/lib.rs /Users/privat/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.8.0/src/parser.rs /Users/privat/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.8.0/src/assert.rs /Users/privat/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.8.0/src/__private.rs
+
+/Users/privat/Documents/GitHub/smartyourself/rust_port/target/debug/deps/libproc_macro_utils-15362e492d8a1053.rmeta: /Users/privat/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.8.0/src/lib.rs /Users/privat/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.8.0/src/parser.rs /Users/privat/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.8.0/src/assert.rs /Users/privat/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.8.0/src/__private.rs
+
+/Users/privat/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.8.0/src/lib.rs:
+/Users/privat/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.8.0/src/parser.rs:
+/Users/privat/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.8.0/src/assert.rs:
+/Users/privat/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.8.0/src/__private.rs:

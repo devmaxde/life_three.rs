@@ -3,6 +3,12 @@
 
 ---
 
+## Current State
+
+**Status**: Nothing exists yet. Starting from empty repository with only the plan directory.
+
+---
+
 ## Summary
 
 Porting this app to Rust/Leptos is a significant but well-bounded project. The app has clear separation between backend logic (API routes + external service calls), data/graph algorithms, and frontend UI. The Rust port follows the same architecture but compiled to WASM (frontend) + native binary (backend).
